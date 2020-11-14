@@ -36,7 +36,7 @@ namespace 속이DB진다ERP
 
         private void button_enroll_Click(object sender, EventArgs e)//결제 등록 버튼
         {
-            //결제 등록 버튼 기능 구현
+            //결제 등록 버튼 기능 구현2
             DBManager.GetInstance().insert("INSERT INTO Payment_list (title, task, memo, permit_1, permit_2, permit_3, comment_, return_, return_memo) VALUES('" + textBox_title.Text + "','" + textBox_work.Text + "','" + textBox_memo.Text + "','" + comboBox_payment_1.Text + "','" + comboBox_payment_2.Text + "','" + comboBox_payment_3.Text + "', '" + textBox_comment.Text + "', 'false','false')");  
         }
     }
